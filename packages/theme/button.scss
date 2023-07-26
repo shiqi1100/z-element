@@ -1,0 +1,25 @@
+.my-button {
+  outline: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+
+  
+ 
+  &--primary {
+    background-color: var(--primary);
+    color: #fff;
+
+  }
+
+  &--success {
+    background-color: var(--success);
+    color: #fff;
+
+  }
+
+  &--danger {
+    background-color: var(--danger);
+    color: #fff;
+  }
+}
