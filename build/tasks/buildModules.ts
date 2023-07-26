@@ -1,7 +1,7 @@
-import path from 'path'
 import glob from 'fast-glob'
+import path from 'path'
 import { rollup } from 'rollup'
-import type { OutputOptions, InputPluginOption } from 'rollup'
+import type { OutputOptions ,InputPluginOption} from 'rollup'
 import { pathConfig } from '../config'
 import { genPlugins } from './rollup'
 
