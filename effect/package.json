@@ -1,0 +1,19 @@
+{
+  "name": "@my-element/effect",
+  "version": "1.0.0",
+  "description": "组件测试",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.7"
+  },
+  "dependencies": {
+    "sass": "^1.64.1"
+  }
+}

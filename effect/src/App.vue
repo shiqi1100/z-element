@@ -1,13 +1,10 @@
 <template>
-$END$
+  <div>
+    <MyButton type="success" />
+    <MyTable />
+  </div>
 </template>
 
-<script>
-export default {
-name: "App"
-}
-</script>
+<script lang="ts" setup></script>
 
-<style scoped>
-
-</style>
+<style lang="scss"></style>

@@ -1,1 +1,1 @@
-declare module 'gulp'
+declare module 'gulp-sass'

@@ -1,0 +1,39 @@
+{
+  "name": "@my-element/build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp --require @esbuild-kit/cjs-loader -f ./gulpfile.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@esbuild-kit/cjs-loader": "2.4.1",
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@types/fs-extra": "^11.0.1",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/compiler-sfc": "3.2.47",
+    "del": "^7.0.0",
+    "esbuild": "^0.17.5",
+    "fast-glob": "^3.3.1",
+    "fs-extra": "^11.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0",
+    "rollup": "^3.14.0",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "sass": "^1.64.1",
+    "unplugin-vue-macros": "^0.11.2"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "plugin-vue-jsx^3.0.0": "link:@vitejs/plugin-vue-jsx^3.0.0"
+  }
+}

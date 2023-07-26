@@ -1,0 +1,8 @@
+{
+  "stylelint.enable": true, 
+  "stylelint.validate": ["css", "less", "postcss", "scss", "vue", "sass"],
+  "editor.codeActionsOnSave": {
+     "source.fixAll.stylelint": true,
+     "source.fixAll.eslint": true
+  }
+}
